@@ -2,7 +2,7 @@
   <div id="app">
     <TheNavBar/>
     <Product/>
-
+    <TheFooter/>
   </div>
 </template>
 

@@ -1,5 +1,85 @@
 <template>
-    <div>
-        <h1>Womens Product Page</h1>
-    </div>
+  <div>
+    <TheNavBar/>
+
+    <section class="first-section flex items-center mx-12">
+      <div class="container mx-auto">
+        <div class="flex flex-col md:flex-row space-x-4">
+          <div class="w-full md:w-1/2">
+            <img :src="require('@/assets/product/wom3.jpg')" alt="Image 1" class="h-3/4 mb-4 bg-origin-border p-4 border-2 border-solid">
+          </div>
+          <div class="w-full md:w-1/2 text-start md:text-left items-center">
+            <h1 class="text-3xl md:text-6xl font-bold my-4 mt-12">Unleash Your Strength <br> with our products Unveiling the Perfect Fusion of Style and Functionality!</h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="second-section py-12 bg-gray-100 mx-2">
+        <div class="container mx-auto">
+          <h2 class="text-2xl font-semibold mb-8 ml-6">Our Products</h2>
+          <div class="grid grid-cols-1 md:grid-cols-3 gap-8 mx-6">
+            <div v-for="product in products" :key="product.id" class="bg-white p-4 rounded shadow">
+              <img :src="require('@/assets/product/wom2.jpg')" :alt="product.name" class="h-48 w-full object-cover mb-4 hover:cursor-pointer">
+              <h3 class="text-xl font-semibold text-gray-800">{{ product.name }}</h3>
+              <p class="text-gray-600">{{ product.description }}</p>
+            </div>
+            <div v-for="product in products" :key="product.id" class="bg-white p-4 rounded shadow">
+              <img :src="require('@/assets/product/wom2.jpg')" :alt="product.name" class="h-48 w-full object-cover mb-4 hover:cursor-pointer">
+              <h3 class="text-xl font-semibold text-gray-800">{{ product.name }}</h3>
+              <p class="text-gray-600">{{ product.description }}</p>
+            </div>
+            <div v-for="product in products" :key="product.id" class="bg-white p-4 rounded shadow">
+              <img :src="require('@/assets/product/wom2.jpg')" :alt="product.name" class="h-48 w-full object-cover mb-4 hover:cursor-pointer">
+              <h3 class="text-xl font-semibold text-gray-800">{{ product.name }}</h3>
+              <p class="text-gray-600">{{ product.description }}</p>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <TheFooter/>
+  </div>
 </template>
+<script>
+export default {
+  data() {
+    return {
+      products: [
+        {
+          id: 1,
+          name: 'Nike Shoes',
+          description: 'A black sports shoe.',
+        },
+        // Add more products here
+      ],
+    };
+  },
+};
+</script>
+
+<!-- <template>
+    <div>
+        
+    </div>
+    <div>
+        <section class="py-12 bg-gray-900 text-white">
+      <div class="container mx-auto flex items-center justify-between">
+        <div class="w-full md:w-1/2">
+          <h2 class="text-3xl font-bold mb-4">Best Seller Products</h2>
+          <a href="/see-more" class="inline-block bg-orange-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 hover:bg-orange-600">See More</a>
+        </div>
+        <div class="w-full md:w-1/2">
+          <div class="relative">
+            <img :src="require('@/assets/product/sl1.jpg')" alt="Slider Image" class="rounded-lg shadow-lg">
+            <div class="absolute bottom-0 left-0 p-4">
+              <h3 class="text-lg font-bold mb-2">Product Name</h3>
+              <p class="text-sm text-gray-200">$99.99</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    </div> 
+</template> -->

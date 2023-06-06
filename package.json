@@ -1,24 +1,33 @@
 {
-  "name": "ecommerce",
-  "version": "1.0.0",
-  "private": true,
   "scripts": {
+    "layer0:dev": "layer0 dev",
+    "layer0:build": "layer0 build",
+    "layer0:deploy": "layer0 deploy",
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
+  "name": "ecommerce",
+  "version": "1.0.0",
+  "private": true,
   "dependencies": {
-    "core-js": "^3.25.3",
-    "nuxt": "^2.15.8"
- 
+    "@nuxt/core": "^2.15.8"
   },
   "devDependencies": {
+    "@layer0/cli": "^4.19.8",
+    "@layer0/core": "^4.19.8",
+    "@layer0/devtools": "^4.19.8",
+    "@layer0/nuxt": "^4.19.8",
+    "@layer0/prefetch": "^4.19.8",
+    "@layer0/vue": "^4.19.8",
     "autoprefixer": "^10.4.14",
+    "core-js": "^3.25.3",
+    "nuxt": "^2.15.8",
     "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.2",
     "vue": "^2.7.10",
     "vue-server-renderer": "^2.7.10",
-    "vue-template-compiler": "^2.7.10",
-    "tailwindcss": "^3.3.2"
+    "vue-template-compiler": "^2.7.10"
   }
 }

@@ -30,6 +30,7 @@ export default {
 
   // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
+    ['@layer0/nuxt/module', { layer0SourceMaps: false }]
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

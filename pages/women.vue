@@ -52,34 +52,8 @@ export default {
           name: 'Nike Shoes',
           description: 'A black sports shoe.',
         },
-        // Add more products here
       ],
     };
   },
 };
 </script>
-
-<!-- <template>
-    <div>
-        
-    </div>
-    <div>
-        <section class="py-12 bg-gray-900 text-white">
-      <div class="container mx-auto flex items-center justify-between">
-        <div class="w-full md:w-1/2">
-          <h2 class="text-3xl font-bold mb-4">Best Seller Products</h2>
-          <a href="/see-more" class="inline-block bg-orange-500 text-white font-bold py-2 px-4 rounded focus:outline-none focus:ring-2 focus:ring-orange-500 focus:ring-offset-2 hover:bg-orange-600">See More</a>
-        </div>
-        <div class="w-full md:w-1/2">
-          <div class="relative">
-            <img :src="require('@/assets/product/sl1.jpg')" alt="Slider Image" class="rounded-lg shadow-lg">
-            <div class="absolute bottom-0 left-0 p-4">
-              <h3 class="text-lg font-bold mb-2">Product Name</h3>
-              <p class="text-sm text-gray-200">$99.99</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    </div> 
-</template> -->

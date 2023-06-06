@@ -1,11 +1,9 @@
 <template>
     <div>
       <TheNavBar/>
-      <!-- Contact section -->
       <section class="py-8 mx-3">
         <div class="container mx-auto">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
-            <!-- Contact form -->
             <div class="bg-gray-100 p-6 rounded-lg shadow-lg">
               <h2 class="text-3xl font-bold mb-4">Contact Us</h2>
               <form>

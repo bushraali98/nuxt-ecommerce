@@ -28,20 +28,20 @@
               <h2 class="text-3xl font-bold mb-4">Company Information</h2>
               <div class="flex items-center mb-4">
                 <i class="fas fa-envelope text-orange-500 mr-2"></i>
-                <p>info@Sneakers.com</p>
+                <p>info@Boshra.com</p>
               </div>
               <div class="flex items-center mb-4">
                 <i class="fas fa-phone text-orange-500 mr-2"></i>
-                <p>+1 123 456 7890</p>
+                <p>+966 564 7890</p>
               </div>
               <div class="flex items-center">
                 <i class="fas fa-map-marker-alt text-orange-500 mr-2"></i>
-                <p>123 Main Street, City, Country</p>
+                <p>123 King Abdul Aziz Street, Medina, Saudi Arabia</p>
               </div>
               <div class="mt-4">
                 <h3 class="text-lg font-bold mb-2">Work Hours</h3>
-                <p>Monday - Friday: 9:00 AM - 6:00 PM</p>
-                <p>Saturday - Sunday: Closed</p>
+                <p>Saturday - Thursday: 9:00 AM - 6:00 PM</p>
+                <p>Friday: Closed</p>
               </div>
             </div>
           </div>

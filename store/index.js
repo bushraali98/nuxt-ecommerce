@@ -7,7 +7,7 @@ export default () => new Vuex.Store({
         product: {
             id: 1,
             name: 'Fall Limited Edition Sneakers',
-            image: require('@/assets/product/img1.jpg'),
+            image: require('@/assets/product/img1.webp'),
             price: 250.00,
             discount: 50,
             quantity: 10

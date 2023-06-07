@@ -37,11 +37,11 @@
 export default {
     data() {
         return {
-            expandedImage: require('@/assets/product/img1.jpg'), 
-            img1: require('@/assets/product/img1.jpg'),
-            img2: require('@/assets/product/img2.jpg'),
-            img3: require('@/assets/product/img3.jpg'),
-            img4: require('@/assets/product/img4.jpg'),
+            expandedImage: require('@/assets/product/img1.webp'), 
+            img1: require('@/assets/product/img1.webp'),
+            img2: require('@/assets/product/img2.webp'),
+            img3: require('@/assets/product/img3.webp'),
+            img4: require('@/assets/product/img4.webp'),
             images: []
         }
     }, 

@@ -7,7 +7,7 @@
           <h1 class="text-4xl font-bold text-gray-800 mb-6">About Us</h1>
           <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
             <div>
-              <img src="~/assets/product/about.jpg" alt="Shoe-image" class="rounded-lg shadow-md"/>
+              <img src="~/assets/product/about.webp" alt="Shoe-image" class="rounded-lg shadow-md"/>
             </div>
             <div class="mt-4">
               <p class="text-gray-600 text-base mb-6">

@@ -1,9 +1,9 @@
 <template>
-    <div class="images flex flex-col sm:w-full md:w-2/3 md:mb-7">
-        <div class="big-container w-4/5 ms-10 flex flex-col">
+    <div class="images flex flex-col w-full md:w-2/3 md:mb-7">
+        <div class="big-container w-full sm:w-4/5 sm:ms-10 flex flex-col">
             <div class="container flex flex-row space-x-0 mt-2 mb-6 items-center justify-center">
                 <div>
-                    <button @click="previousImage" class="md:hidden left-arrow  bg-orange-500 text-white p-3 rounded-full opacity-75 hover:opacity-100">
+                    <button @click="previousImage" class="md:hidden left-arrow  bg-orange-500 text-white w-9 h-9 sm:w-12 sm:h-12 rounded-full opacity-75 hover:opacity-100">
                         <i class="fas fa-chevron-left"></i>
                     </button>
                 </div>
@@ -11,7 +11,7 @@
                     <img id="expandedImg" :src="expandedImage">
                 </div>
                 <div>
-                    <button @click="nextImage" class="md:hidden right-arrow bg-orange-500 text-white p-3 rounded-full opacity-75 hover:opacity-100">
+                    <button @click="nextImage" class="md:hidden right-arrow bg-orange-500 text-white w-9 h-9 sm:w-12 sm:h-12 rounded-full opacity-75 hover:opacity-100">
                         <i class="fas fa-chevron-right"></i>
                     </button>
                 </div>

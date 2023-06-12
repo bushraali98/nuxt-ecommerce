@@ -1,5 +1,5 @@
 <template>
-    <div class="product flex flex-col sm:justify-center sm:items-center md:flex-col lg:flex-row mx-14">
+    <div class="product flex flex-col sm:justify-center sm:items-center md:flex-col lg:flex-row mx-8 sm:mx-11">
         <ImageGallery/>
         <div class="product-details w-full sm:w-4/5 sm:m-0 md:w-2/3 xl:mt-0 ml-7">
             <ProductDescription/>

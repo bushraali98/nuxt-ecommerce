@@ -1,5 +1,5 @@
 <template>
-  <div class="navbar m-10 overflow-hidden border-b border-gray-500 flex flex-row flex-wrap items-center md:justify-between space-x-6 md:space-x-10">
+  <div class="navbar m-7 md:m-10 overflow-hidden border-b border-gray-500 flex flex-row flex-wrap items-center md:justify-between space-x-6 md:space-x-10">
     <div class="flex items-center">
       <!-- Mobile menu button -->
       <button class="md:hidden  px-4 py-4 text-gray-500 focus:outline-none focus:text-gray-700" @click="toggleMobileMenu">
@@ -14,7 +14,7 @@
         <NuxtLink to="/contact" class="px-4 pb-4 no-underline hover:text-gray-500 text-gray-700 visited:text-gray-600">Contact</NuxtLink>
       </div>
     </div>
-    <div class="cart-icon flex md:items-end md:content-end pr-5 justify-end flex-initial w-3/5 sm:w-3/4 md:w-auto" @mouseover="setShowCartPreview(true)" @mouseleave="setShowCartPreview(false)"> 
+    <div class="cart-icon flex md:items-end md:content-end pr-5 justify-end items-end flex-initial w-1/2 sm:w-4/6 md:w-auto" @mouseover="setShowCartPreview(true)" @mouseleave="setShowCartPreview(false)"> 
       <a href="#cart"><i class="fas fa-shopping-cart fa-lg" style="color: grey;"></i></a>
       <CartPreview class="hidden sm:inline-block" v-if="showCartPreview"/> 
     </div>

@@ -1,5 +1,5 @@
 <template>
-    <div id="product-name" class="w-4/5 mx-4 sm:m-0 md:ml-10 xl:mt-0">
+    <div id="product-name" class="w-5/6 sm:mx-4 sm:m-0 md:ml-10 xl:mt-0">
         <h1 class="barnd-name pb-4 text-orange-500 font-light  md:font-normal lg:mt-0 mt-2">SNEAKER COMPANY</h1>
         <h1 class="w-full text-3xl md:text-5xl font-light md:font-normal pb-7">{{ product.name }}</h1>
         <p class="text-gray-500">These low-profile sneakers are your perfect casual wear companion. Featuring a durable rubber outer sole, they'll withstand everything the weather can offer.</p>
